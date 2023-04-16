@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    width: 100%;
+    height: 850px;
+}
+#navbar{
+    display: flex;
+}
+#logo{
+    color: #4200ce;
+    font-size: 80px;
+    font-family: k2d;
+    margin-left: 2%;
+}
+#logotext{
+    font-size: 28px;
+    font-family: k2d;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+#body1text{
+    font-size: 55px;
+    font-family: Comfortaa;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5%;
+}
+#body2{
+    width: 70%;
+    background-color: #b2b2b2;
+    height: 500px;
+    margin-left: 15%;
+    border-radius: 25px;
+    margin-top: 4%;
+}
+#body2text{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    padding-top: 5%;
+
+    color: #000000;
+}
+#body2div{
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    margin-left: 3%;
+}
+#but1a{
+    text-decoration: none;
+}
+#but1{
+    background-color: white;
+    width: 205%;
+    height: 87px;
+    border-radius: 25px;
+}
+#but1 h1{
+    font-family: Calibri;
+    color: black;
+    text-align: center;
+    padding-top: 10%;
+}
+#but2a{
+    text-decoration: none;
+}
+#but2{
+    background-color: #4200ce;
+    width: 180%;
+    height: 87px;
+    border-radius: 25px;
+}
+#but2 h1{
+    font-family: Calibri;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
